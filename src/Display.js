@@ -1,5 +1,5 @@
 import React from "react";
-import Forms from './Forms';
+import Form from './Form';
 import Error from "./Error";
 
 class Display extends React.Component {
@@ -20,7 +20,7 @@ class Display extends React.Component {
 
         <div className='px-5 py-3 text-light' style={{ background: '#3E688A', width: '33%', height: '100vh' }}>
           <h1>City Explorer</h1>
-          <Forms
+          <Form
             handleCityInput={this.props.handleCityInput}
             handleCitySubmit={this.props.handleCitySubmit}
           />
