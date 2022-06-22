@@ -1,26 +1,25 @@
-//import { render } from '@testing-library/react';
-import React from 'react';
+import React from "react";
 import { Form, Button } from 'react-bootstrap';
 
-class Forms Extends React.Component{
+class Forms extends React.Component {
+  render() {
 
-    render() {
 
-        return (
-            <Form onSubmit={this.props.handleCitySubmit}>
-                <Form.Group className="mb-3">
-                    <Form.Label type="text">Search for City</Form.Label>
-                    <Form.Control onInput={this.props.handleCityInput}/>
-
-                    <Button variant="primary" type="submit">
-                        Explore!
-
-                    </Button>
-                </Form.Group>
-            </Form >
-        )
-
-        
-    }
+    return (
+      
+        <Form onSubmit={this.props.handleCitySubmit}>
+          <Form.Group className="mb-3">
+          <div className='w-100'>
+            <Form.Label type="text">Search a City</Form.Label>
+            <Form.Control onInput={this.props.handleCityInput} />
+          </div>
+            <Button variants="primary" type="submit">
+              Explore!
+            </Button>
+          </Form.Group>
+        </Form>
+      
+    )
+  }
 }
-export dafualt Forms;
+export default Forms;
