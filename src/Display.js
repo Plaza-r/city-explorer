@@ -1,6 +1,7 @@
 import React from "react";
 import Form from './Form';
 import Error from "./Error";
+import Weather from "./Weather";
 
 class Display extends React.Component {
   render() {
@@ -33,6 +34,7 @@ class Display extends React.Component {
           )}
 
           {Object.keys(this.props.cityData).length > 0 && (
+            <>
             <ul className='list-unstyled '>
               <li className='py-2'>
                 <p className='p-0 m-0 '>Latitude</p> <p className='p-0 m-0 h3'>{this.props.cityData.lat}</p>
@@ -48,6 +50,13 @@ class Display extends React.Component {
 
 
             </ul>
+            {/* <Weather
+            weatherData={this.props.weatherData}
+            city={this.props.cityData.display_name}
+
+            /> */}
+            </>
+
           )}
         </div>
 
