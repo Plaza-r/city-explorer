@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Display from './Display';
 import Weather from './Weather';
+import Movies from './Movies';
 
 
 class App extends React.Component {
@@ -12,7 +13,8 @@ class App extends React.Component {
       cityData: {},
       error: false,
       erroMessage: '',
-      weatherData: []
+      weatherData: [],
+      movieArray: []
     }
   }
 
@@ -25,6 +27,13 @@ class App extends React.Component {
       console.log(err);
     });//tailor to movie
     console.log(cityForecast)
+
+    let cityMovie = await axios.get(`${process.env.REACT_APP_SERVER}/movies?searchQueryCity=${this.state.city}`).catch(err => {
+      console.log(err);
+    });
+
+
+
     this.setState({
       weatherData:cityForecast.data
     }) 
@@ -40,7 +49,8 @@ class App extends React.Component {
     this.setState({
       cityData: cityInfo.data[0],
       error: false,
-      errorMessage: ''
+      errorMessage: '',
+      MovieData: cityMovie.data
     })
 
   }
@@ -66,6 +76,7 @@ class App extends React.Component {
 render(){
 
 console.log(this.state);
+console.log(this.state.movieData);
  
   return (   
     <>
@@ -78,6 +89,7 @@ console.log(this.state);
           errorMessage={this.state.errorMessage}
           cityData={this.state.cityData}
           weatherData={this.state.weatherData}
+          moiveData={this.state.movieData}
         />  
 
         {this.state.weatherData.length && 
@@ -85,7 +97,9 @@ console.log(this.state);
             weatherData={this.state.weatherData}
             city={this.state.city}
           />
-        }  
+        }
+        <Movies
+            movie={this.state.movieData}/>  
         </>
   
   );
