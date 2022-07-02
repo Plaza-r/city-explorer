@@ -1,7 +1,7 @@
 import React from "react";
 import Form from './Form';
 import Error from "./Error";
-import Weather from "./Weather";
+
 
 class Display extends React.Component {
   render() {
