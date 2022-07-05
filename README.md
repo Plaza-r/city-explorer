@@ -125,16 +125,16 @@ Lab 7 Partner: Jamal Malik
 ## Finish time: 2100
 
 ## Actual time needed to complete: 6 hours
-Name of feature: _
-Estimate of time needed to complete: _____
+## Name of feature: added movies
+## Estimate of time needed to complete: 6 hours
 
-Start time: _____
+## Start time: 1500
 
-Finish time: _____
+## Finish time: 2100
 
-Actual time needed to complete: _____
+## Actual time needed to complete:6 hours
 
-## Name of feature: Refactor
+## Name of feature: Refactor and modified readme
 
 ## Estimate of time needed to complete: 6 hours
 
