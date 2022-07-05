@@ -73,7 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 **Author**: Riki E Plaza
 **Version**: 3.0.0 (increment the patch/fix version number if you make more commits past your first submission)
-
+**Version**: 4.0.0
+**Version**: 5.0.0
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 Create a app that renders a city and the 3 day forcast for selected city.
@@ -124,8 +125,7 @@ Lab 7 Partner: Jamal Malik
 ## Finish time: 2100
 
 ## Actual time needed to complete: 6 hours
-Name of feature: ________________________________
-
+Name of feature: _
 Estimate of time needed to complete: _____
 
 Start time: _____
@@ -133,12 +133,13 @@ Start time: _____
 Finish time: _____
 
 Actual time needed to complete: _____
-Name of feature: Refactor
 
-Estimate of time needed to complete: _____
+## Name of feature: Refactor
 
-Start time: _____
+## Estimate of time needed to complete: 6 hours
 
-Finish time: _____
+## Start time: 1500
 
-Actual time needed to complete: _____
+## Finish time: 2100
+
+## Actual time needed to complete: 6 hours

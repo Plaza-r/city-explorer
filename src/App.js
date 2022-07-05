@@ -104,29 +104,4 @@ export default App;
 //seeing it works
 
 
-//***** have to refactor */
- // handleCitySubmit = async(e) => {
-  //   e.preventDefault();
-  //   let url = `https://us1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&q=${this.state.city}&format=json`;
-
-  //   let cityInfo = await axios.get(url).catch(this.catch);
-
-  //   let cityForecast = await axios.get(`${process.env.REACT_APP_SERVER}/weather?searchQueryCity=${this.state.city}`).catch(err => {
-  //     console.log(err);
-  //   });
-
-  //   let forecast = [];
-  //   if (!!cityForecast) {
-  //     forecast = cityForecast.data;
-  //   }refectored
-
-  //   console.log(forecast, 'forecast');
-  //   if (!cityInfo) return
-  //   this.setState({
-  //     cityData: cityInfo.data[0],
-  //     error: false,
-  //     errorMessage: '',
-  //     weatherData: forecast
-  //   }) refactored
-
  
