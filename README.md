@@ -101,3 +101,44 @@ REACT, Express, Javascript.
 ## Credit an dCollaborations
 Lab 7 Partner: Jamal Malik
 ![lab07](./public/img/lab7WRRC.png)
+![lab08](./public/img/Lab08.jpeg)
+![lab09](./public/img/lab09.jpeg)
+
+## Name of feature: Set up REact repo and Api keys
+
+## Estimate of time needed to complete: 5 hours
+
+## Start time: 1500
+
+## Finish time: 2100
+
+## Actual time needed to complete: 6 hours
+
+
+## Name of feature: added read me and fixed some bugs
+
+## Estimate of time needed to complete: 4 hours
+
+## Start time: 1500
+
+## Finish time: 2100
+
+## Actual time needed to complete: 6 hours
+Name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+Name of feature: Refactor
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
